@@ -119,3 +119,4 @@ leaoXIV sameAs robertWPrevost inferido? False
 Instâncias inferidas de {robertWPrevost}: [D:\Mestrado\ECI\Mediação_da_Informação_Igreja\Testes_LD\cenario_B_sem_distincao.leaoXIV, D:\Mestrado\ECI\Mediação_da_Informação_Igreja\Testes_LD\cenario_B_sem_distincao.robertWPrevost]
 leaoXIV inferido idêntico a robertWPrevost? True
 ```
+
