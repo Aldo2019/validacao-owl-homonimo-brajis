@@ -1,0 +1,26 @@
+* Owlready2 * Running HermiT...
+    java -Xmx2000M -cp D:\Mestrado\ECI\Mediação_da_Informação_Igreja\Testes_LD\.venv\Lib\site-packages\owlready2\hermit;D:\Mestrado\ECI\Mediação_da_Informação_Igreja\Testes_LD\.venv\Lib\site-packages\owlready2\hermit\HermiT.jar org.semanticweb.HermiT.cli.CommandLine -c -O -D -I file:///C:/Users/Aldo/AppData/Local/Temp/tmpwxrrc5dh
+* Owlready2 * Running HermiT...
+    java -Xmx2000M -cp D:\Mestrado\ECI\Mediação_da_Informação_Igreja\Testes_LD\.venv\Lib\site-packages\owlready2\hermit;D:\Mestrado\ECI\Mediação_da_Informação_Igreja\Testes_LD\.venv\Lib\site-packages\owlready2\hermit\HermiT.jar org.semanticweb.HermiT.cli.CommandLine -c -O -D -I file:///C:/Users/Aldo/AppData/Local/Temp/tmpn_vu8w7b -Y
+* Owlready2 * HermiT took 0.623464822769165 seconds
+* Owlready * (NB: only changes on entities loaded in Python are shown, other changes are done but not listed)
+* Owlready2 * Running HermiT...
+    java -Xmx2000M -cp D:\Mestrado\ECI\Mediação_da_Informação_Igreja\Testes_LD\.venv\Lib\site-packages\owlready2\hermit;D:\Mestrado\ECI\Mediação_da_Informação_Igreja\Testes_LD\.venv\Lib\site-packages\owlready2\hermit\HermiT.jar org.semanticweb.HermiT.cli.CommandLine -c -O -D -I file:///C:/Users/Aldo/AppData/Local/Temp/tmps0ewprwn
+* Owlready2 * HermiT took 0.6633195877075195 seconds
+* Owlready * Reparenting D:\Mestrado\ECI\Mediação_da_Informação_Igreja\Testes_LD\cenario_B_sem_distincao.leaoXIV: {owl.Thing} => {D:\Mestrado\ECI\Mediação_da_Informação_Igreja\Testes_LD\cenario_B_sem_distincao.MesmoQueRobert}
+* Owlready * Reparenting D:\Mestrado\ECI\Mediação_da_Informação_Igreja\Testes_LD\cenario_B_sem_distincao.robertWPrevost: {owl.Thing} => {D:\Mestrado\ECI\Mediação_da_Informação_Igreja\Testes_LD\cenario_B_sem_distincao.MesmoQueRobert}
+* Owlready * (NB: only changes on entities loaded in Python are shown, other changes are done but not listed)
+Python: 3.13.17 | owlready2: 0.51
+openjdk version "25.0.5" 2026-10-20 LTS
+
+=== CENÁRIO A (com axioma 5) ===
+Resultado: INCONSISTENTE (esperado)
+
+=== CENÁRIO B (sem axioma 5) ===
+Resultado: CONSISTENTE
+Indivíduos inferidos como idênticos a leaoXIV: []
+leaoXIV sameAs robertWPrevost inferido? False
+
+=== CENÁRIO B – consulta: quem é o mesmo indivíduo que robertWPrevost? ===
+Instâncias inferidas de {robertWPrevost}: [D:\Mestrado\ECI\Mediação_da_Informação_Igreja\Testes_LD\cenario_B_sem_distincao.leaoXIV, D:\Mestrado\ECI\Mediação_da_Informação_Igreja\Testes_LD\cenario_B_sem_distincao.robertWPrevost]
+leaoXIV inferido idêntico a robertWPrevost? True

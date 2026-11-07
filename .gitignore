@@ -1,0 +1,6 @@
+# Ignore large binaries and virtual environments
+robot.jar
+venv/
+.venv/
+__pycache__/
+*.pyc

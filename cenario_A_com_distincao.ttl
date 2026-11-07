@@ -1,0 +1,35 @@
+@prefix :     <http://example.org/homonimo#> .
+@prefix owl:  <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+
+<http://example.org/homonimo> a owl:Ontology ;
+    rdfs:comment "Exemplo do caso do homônimo: controle de autoridade em OWL (axiomas 1 a 5 do artigo)."@pt .
+
+# Axioma (1): temAutor ≡ autorDe⁻
+:autorDe  a owl:ObjectProperty .
+:temAutor a owl:ObjectProperty ;
+    owl:inverseOf :autorDe .
+
+# Axioma (2): LivroDeAutoriaUnica ⊑ ≤1 temAutor.⊤
+:LivroDeAutoriaUnica a owl:Class ;
+    rdfs:subClassOf [ a owl:Restriction ;
+                      owl:onProperty :temAutor ;
+                      owl:maxCardinality "1"^^xsd:nonNegativeInteger ] .
+
+# Axioma (3): probabilityTheisticExplanation : LivroDeAutoriaUnica
+:probabilityTheisticExplanation a owl:NamedIndividual , :LivroDeAutoriaUnica .
+
+# Axioma (4): autorDe(robertWPrevost, probabilityTheisticExplanation)
+:robertWPrevost a owl:NamedIndividual ;
+    :autorDe :probabilityTheisticExplanation .
+
+:leaoXIV a owl:NamedIndividual .
+
+# Axioma (5): leaoXIV ≠ robertWPrevost
+:leaoXIV owl:differentFrom :robertWPrevost .
+
+# Afirmação equivocada que circulou em 2025
+:leaoXIV :autorDe :probabilityTheisticExplanation .
+# Resultado esperado: ontologia INCONSISTENTE; justificativa = axiomas (1)-(5) + esta afirmação.
