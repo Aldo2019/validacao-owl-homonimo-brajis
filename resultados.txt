@@ -1,11 +1,11 @@
 * Owlready2 * Running HermiT...
-    java -Xmx2000M -cp D:\Mestrado\ECI\Mediação_da_Informação_Igreja\Testes_LD\.venv\Lib\site-packages\owlready2\hermit;D:\Mestrado\ECI\Mediação_da_Informação_Igreja\Testes_LD\.venv\Lib\site-packages\owlready2\hermit\HermiT.jar org.semanticweb.HermiT.cli.CommandLine -c -O -D -I file:///C:/Users/Aldo/AppData/Local/Temp/tmpwxrrc5dh
+    java -Xmx2000M -cp D:\Mestrado\ECI\Mediação_da_Informação_Igreja\Testes_LD\.venv\Lib\site-packages\owlready2\hermit;D:\Mestrado\ECI\Mediação_da_Informação_Igreja\Testes_LD\.venv\Lib\site-packages\owlready2\hermit\HermiT.jar org.semanticweb.HermiT.cli.CommandLine -c -O -D -I file:///C:/Users/XXXX/AppData/Local/Temp/tmpwxrrc5dh
 * Owlready2 * Running HermiT...
-    java -Xmx2000M -cp D:\Mestrado\ECI\Mediação_da_Informação_Igreja\Testes_LD\.venv\Lib\site-packages\owlready2\hermit;D:\Mestrado\ECI\Mediação_da_Informação_Igreja\Testes_LD\.venv\Lib\site-packages\owlready2\hermit\HermiT.jar org.semanticweb.HermiT.cli.CommandLine -c -O -D -I file:///C:/Users/Aldo/AppData/Local/Temp/tmpn_vu8w7b -Y
+    java -Xmx2000M -cp D:\Mestrado\ECI\Mediação_da_Informação_Igreja\Testes_LD\.venv\Lib\site-packages\owlready2\hermit;D:\Mestrado\ECI\Mediação_da_Informação_Igreja\Testes_LD\.venv\Lib\site-packages\owlready2\hermit\HermiT.jar org.semanticweb.HermiT.cli.CommandLine -c -O -D -I file:///C:/Users/XXXX/AppData/Local/Temp/tmpn_vu8w7b -Y
 * Owlready2 * HermiT took 0.623464822769165 seconds
 * Owlready * (NB: only changes on entities loaded in Python are shown, other changes are done but not listed)
 * Owlready2 * Running HermiT...
-    java -Xmx2000M -cp D:\Mestrado\ECI\Mediação_da_Informação_Igreja\Testes_LD\.venv\Lib\site-packages\owlready2\hermit;D:\Mestrado\ECI\Mediação_da_Informação_Igreja\Testes_LD\.venv\Lib\site-packages\owlready2\hermit\HermiT.jar org.semanticweb.HermiT.cli.CommandLine -c -O -D -I file:///C:/Users/Aldo/AppData/Local/Temp/tmps0ewprwn
+    java -Xmx2000M -cp D:\Mestrado\ECI\Mediação_da_Informação_Igreja\Testes_LD\.venv\Lib\site-packages\owlready2\hermit;D:\Mestrado\ECI\Mediação_da_Informação_Igreja\Testes_LD\.venv\Lib\site-packages\owlready2\hermit\HermiT.jar org.semanticweb.HermiT.cli.CommandLine -c -O -D -I file:///C:/Users/XXXX/AppData/Local/Temp/tmps0ewprwn
 * Owlready2 * HermiT took 0.6633195877075195 seconds
 * Owlready * Reparenting D:\Mestrado\ECI\Mediação_da_Informação_Igreja\Testes_LD\cenario_B_sem_distincao.leaoXIV: {owl.Thing} => {D:\Mestrado\ECI\Mediação_da_Informação_Igreja\Testes_LD\cenario_B_sem_distincao.MesmoQueRobert}
 * Owlready * Reparenting D:\Mestrado\ECI\Mediação_da_Informação_Igreja\Testes_LD\cenario_B_sem_distincao.robertWPrevost: {owl.Thing} => {D:\Mestrado\ECI\Mediação_da_Informação_Igreja\Testes_LD\cenario_B_sem_distincao.MesmoQueRobert}
